@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1" />
+    <title>小商店数字货架 | Smart Mini Shop</title>
+    <meta name="description" content="小商店数字货架 — 浏览商品、搜索、查看促销与联系方式。" />
+    <meta name="robots" content="index, follow" />
+    <meta property="og:title" content="小商店数字货架" />
+    <meta property="og:description" content="小商店数字货架 — 浏览商品、搜索、查看促销与联系方式。" />
+    <meta property="og:type" content="website" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="小商店数字货架" />
+    <meta name="twitter:description" content="小商店数字货架 — 浏览商品、搜索、查看促销与联系方式。" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <script type="module" crossorigin src="/assets/index-BTVWnJE2.js"></script>
+    <link rel="stylesheet" crossorigin href="/assets/index-CWlGMkJu.css">
+  </head>
+  <body>
+    <!-- ============ 页头：Logo / 店名 / 搜索 / 联系电话 / 营业时间 ============ -->
+    <header class="site-header">
+      <div class="header-top">
+        <div class="brand">
+          <div class="brand-logo" aria-hidden="true">购</div>
+          <div class="brand-text">
+            <h1 class="brand-name">阳光便利店</h1>
+            <p class="brand-slogan">Smart Mini Shop · 家门口的数字货架</p>
+          </div>
+        </div>
+
+        <div class="search-wrap">
+          <label for="search-input" class="visually-hidden">搜索商品</label>
+          <input
+            id="search-input"
+            type="search"
+            class="search-input"
+            placeholder="搜索商品，例如：可乐"
+            autocomplete="off"
+          />
+        </div>
+
+        <div class="header-info">
+          <p class="info-line"><span class="info-icon">☎</span> 138-0000-0000</p>
+          <p class="info-line"><span class="info-icon">🕒</span> 每天 09:00 - 22:00</p>
+        </div>
+      </div>
+
+      <!-- ============ 分类导航 ============ -->
+      <nav class="category-nav" aria-label="商品分类">
+        <ul id="category-list" class="category-list">
+          <!-- 分类按钮由 render.js 的 renderCategories() 动态生成 -->
+        </ul>
+      </nav>
+    </header>
+
+    <!-- ============ 主体：商品卡片区域 ============ -->
+    <main class="main-content">
+      <div class="content-bar">
+        <h2 id="section-title" class="section-title">全部商品</h2>
+        <p id="result-count" class="result-count"></p>
+      </div>
+
+      <section id="product-grid" class="product-grid" aria-live="polite">
+        <!-- 商品卡片由 render.js 的 renderProducts() 动态生成 -->
+      </section>
+
+      <p id="empty-state" class="empty-state" hidden>没有找到相关商品，换个关键词试试吧。</p>
+    </main>
+
+    <!-- ============ 商品详情弹窗 ============ -->
+    <div id="product-modal" class="modal-overlay" hidden>
+      <div class="modal-box" role="dialog" aria-modal="true" aria-labelledby="modal-title">
+        <button id="modal-close" class="modal-close" aria-label="关闭">&times;</button>
+        <div class="modal-image-wrap">
+          <img id="modal-image" class="modal-image" src="" alt="" />
+        </div>
+        <div class="modal-body">
+          <span id="modal-category" class="modal-category"></span>
+          <h3 id="modal-title" class="modal-title"></h3>
+          <p id="modal-price" class="modal-price"></p>
+          <p id="modal-stock" class="modal-stock"></p>
+          <p id="modal-desc" class="modal-desc"></p>
+        </div>
+      </div>
+    </div>
+
+    <!-- ============ 页脚 ============ -->
+    <footer class="site-footer">
+      <div class="footer-content">
+        <div class="footer-block">
+          <h4>店铺地址</h4>
+          <p>某某市某某区幸福路 88 号</p>
+          <p class="footer-map-hint">Google 地图导航（后期开放）</p>
+        </div>
+        <div class="footer-block">
+          <h4>联系方式</h4>
+          <p>电话：138-0000-0000</p>
+          <p>微信：SmartMiniShop</p>
+        </div>
+        <div class="footer-block">
+          <h4>营业时间</h4>
+          <p>周一至周日 09:00 - 22:00</p>
+        </div>
+      </div>
+      <p class="footer-copyright">&copy; 2026 阳光便利店 Smart Mini Shop. 保留所有权利。</p>
+    </footer>
+
+  </body>
+</html>
