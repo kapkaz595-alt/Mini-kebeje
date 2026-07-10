@@ -1,0 +1,92 @@
+[
+  {
+    "id": 1,
+    "name": "Coca-Cola",
+    "price": 650,
+    "category": "饮料",
+    "stock": 20,
+    "image": "images/coke.jpg",
+    "description": "冰镇可口可乐罐装，畅爽解渴，聚会聚餐必备饮品。"
+  },
+  {
+    "id": 2,
+    "name": "矿泉水",
+    "price": 200,
+    "category": "饮料",
+    "stock": 35,
+    "image": "images/water.jpg",
+    "description": "天然矿泉水，纯净清甜，随时随地为身体补充水分。"
+  },
+  {
+    "id": 3,
+    "name": "薯片",
+    "price": 900,
+    "category": "零食",
+    "stock": 15,
+    "image": "images/chips.jpg",
+    "description": "香脆可口的薯片，多种口味满足你的味蕾。"
+  },
+  {
+    "id": 4,
+    "name": "奥利奥饼干",
+    "price": 750,
+    "category": "零食",
+    "stock": 0,
+    "image": "images/oreo.jpg",
+    "description": "经典巧克力夹心饼干，搭配牛奶更美味。"
+  },
+  {
+    "id": 5,
+    "name": "新鲜牛奶",
+    "price": 850,
+    "category": "牛奶",
+    "stock": 12,
+    "image": "images/milk.jpg",
+    "description": "优质鲜牛奶，营养丰富，全家人的健康之选。"
+  },
+  {
+    "id": 6,
+    "name": "酸奶",
+    "price": 500,
+    "category": "牛奶",
+    "stock": 18,
+    "image": "images/yogurt.jpg",
+    "description": "浓郁顺滑酸奶，含活性益生菌，助力肠道健康。"
+  },
+  {
+    "id": 7,
+    "name": "白面包",
+    "price": 600,
+    "category": "面包",
+    "stock": 10,
+    "image": "images/bread.jpg",
+    "description": "松软可口的切片面包，早餐首选。"
+  },
+  {
+    "id": 8,
+    "name": "牛角包",
+    "price": 450,
+    "category": "面包",
+    "stock": 0,
+    "image": "images/croissant.jpg",
+    "description": "外酥内软的黄油牛角包，浓浓奶香味。"
+  },
+  {
+    "id": 9,
+    "name": "牙膏",
+    "price": 1200,
+    "category": "日用品",
+    "stock": 25,
+    "image": "images/toothpaste.jpg",
+    "description": "清新口气配方，深层清洁牙齿，呵护口腔健康。"
+  },
+  {
+    "id": 10,
+    "name": "抽纸",
+    "price": 1500,
+    "category": "日用品",
+    "stock": 40,
+    "image": "images/tissue.jpg",
+    "description": "柔软亲肤抽纸，居家办公必备日用品。"
+  }
+]
